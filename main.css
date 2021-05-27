@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1599425017309-4769b6aa5529?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    color: whitesmoke;
+    width: fit-content;
+}
+
+
+#navLink{
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    right: -80%;
+}
+#navLink:hover{
+    background-color: white;
+    color: black;
+}
+#topbar{
+    background-color: black;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+    opacity: 70%;
+
+}
+
+.body-content{
+    align-content: center;
+    background-color:black;
+
+}
+
+#title{
+    background-color: rgb(12, 206, 206);
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    position: relative;
+
+    
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+#content{
+ margin-right: 15%;
+ margin-left: 15%;
+background-color: #414040;
+}
+
+#aboutmediv{
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+
+#projectsdiv{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#findmediv{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+body h3{
+    text-align: center;
+}
+
+footer{
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+body h3{
+text-align: center;
+}
+
+#aboutmetext{
+    text-align: left;
+}
+
+#profilepic{
+    position: relative;
+    top: -10px;
+    float: left;
+    border: 1px inset black;
+    border-radius: 15px 15px 15px 15px;
+    border-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 30px;
+
+}
+
+body p{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+label{
+    color: black;
+}
+
+#githubicon{
+    margin-top: 10px;
+}
+
+#creationinfo{
+    position: relative;
+    right: -85%;
+}
+
+#findme{
+    position: relative;
+    right: -80%;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#findme:hover{
+    background-color: white;
+    color: black;
+}
+
+#liicon{
+    border-radius:  15px 15px 15px 15px;
+}

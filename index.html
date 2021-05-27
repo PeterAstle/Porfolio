@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-brand container-fluid" id="topbar">
+        <div class="row">
+            <a class="col-md-1" id="findme" href="#contactdiv">Contact Me</a>
+            <a class="col-md-1" id="navLink" href="#projectsSection">My Work</a>
+        </div>
+
+    </nav>
+    <div class="body-content">
+        <div class="jumbotron container-fluid" id="title">
+            <header>
+
+                <h1>Peter Astle</h1>
+                </br>
+                <h3>Software Developer</h3>
+
+
+            </header>
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="aboutmediv">
+            <h3>Who am I?</h3>
+            </br>
+            <img id="profilepic" class="col-sm-2" src="https://i.imgur.com/YAkKqjS.jpg">
+            </br>
+            <p id="aboutmetext">
+                Hello all, thank you for taking the time to get to know me a bit better! My name is Peter Astle, I
+                am am a software developer looking to transition into the tech industry after holding a myriad of
+                positions within a variety of industries. After highschool I decided to pursue a degree in Business
+                Management through Eastern Washington University and though I was unable to complete this degree due to
+                non-academic reasons, I benefited from in-depth coursework with focus primarily on Economics,
+                Management,
+                and Business Statistics.
+                </br>
+                </br>
+                After my time studying at EWU, I began to search for a career which would bring new daily
+                challenges, continual improvement opportunities, and personal fulfillment. Throughout this search I
+                have held positions such as an assembly line production worker building Toyota Highlanders, a
+                marketing copywriter creating descriptions for newly released products and formatting each using
+                HTML for direct uploads to the business' online storefront, and most recently as an Auto Claims
+                Representative for Liberty Mutual determining liability for auto claims and managing the repair
+                resolutions for each party throughout the claims lifecycle.
+                </br>
+                </br>
+
+                While none of these roles involked a passion within me to progress further with those roles, each
+                provided me with ample learning opportunities and helped me discover which aspects of a position
+                produce the personal fulfillment which I am seeking in a career. I concluded that my
+                passion for efficiency, process improvement, and helping others through finding and delivering creative
+                solutions to satisfiy their unique needs.
+                </br>
+                </br>
+                This realization helped drive my decision to take on the challenge of transitioning into a software
+                developer role by means of education/training through <a href="https://elevenfifty.org/">ElevenFifty
+                    Academy</a> where I learned the fundamentals of being a full-stack software developer. In this
+                project focused coursework I have been able to work with HTML, CSS, C#, and a bit of Javascript. Below
+                you will find a small showcase of the
+                body of work which I have managed to complete since I began this journey, which I hope will
+                accurately display my current skill level in addition to the abundant growth which ElevenFifty has
+                facilitated over the past couple of months.
+            </p>
+        </div>
+        <div id="contactdiv">
+            <h3>Where to Find Me and My Work</h3>
+
+        </div>
+        <div id="findmediv" class="row">
+            <div class="col text-center">
+                <img id="liicon" class="col-sm-4"
+                    src="https://i.imgur.com/d6LLNHA.png">
+                </br>
+                </br>
+
+
+                <a class="btn btn-primary" target="_blank"
+                    href="https://www.linkedin.com/in/peter-astle-1b3486209/">LinkedIn</a>
+            </div>
+            <div class="col text-center">
+                <img class="col-sm-4" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" id="githubicon">
+                </br>
+                </br>
+                <a class="btn btn-primary" target="_blank" href="https://github.com/PeterAstle">GitHub</a>
+
+            </div>
+
+
+            <div class="container col text-center">
+                <img class="col-sm-4" src="https://cdn.iconscout.com/icon/free/png-256/outlook-129888.png">
+                </br>
+                </br>
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                    Email
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h1 class="modal-title">Contact Me</h1>
+
+                            </div>
+
+
+
+
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <div>
+
+                                    <form action="https://formspree.io/f/meqvgear" method="post">
+                                        <label for="full-name">Full Name</label>
+                                        <input type="text" name="name" id="full-name" placeholder="First and Last Name"
+                                            required="">
+                                        <label for="email">Your Email</label>
+                                        <input name="Email" id="email" type="email" placeholder="email@domain.com">
+
+                                        <label for="_subject">Subject</label>
+                                        <input name="Subject" id="subject" type="text" placeholder="Message subject">
+                                        </br>
+                                        </br>
+
+                                        <label for="_message">Your Message</label>
+                                        <input name="Message" id="message" type="text" class="form-control" rows="5"
+                                            placeholder="Your message here">
+                                        <button type="submit">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="projectsdiv">
+            <h3 id="projectsSection">Examples of My Work</h3>
+            <br>
+            <br>
+            <div id="projects" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#projects" data-slide-to="0" class="active"></li>
+                    <li data-target="#projects" data-slide-to="1"></li>
+                    <li data-target="#projects" data-slide-to="2"></li>
+                    <li data-target="#projects" data-slide-to="3"></li>
+
+                </ul>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center">
+                        <img src="https://i.imgur.com/Z8yNKwk.jpg" alt="Static Storefront"
+                            href="https://peterastle.github.io/Static-Store-Front/" class="col-md-8">
+
+                    </div>
+                    <div class="carousel-item text-center">
+                        <img src="https://i.imgur.com/mJBFcBs.jpg" class="col-md-8" alt="Creature Assignment"
+                            href="https://codepen.io/PAstle/full/dyOgwNx">
+                    </div>
+                    <div class="carousel-item text-center">
+                        <img src="https://i.imgur.com/pTnQNFB.jpg" class="col-md-8" alt="Miro Board">
+                    </div>
+                    <div class="carousel-item text-center">
+                        <img src="https://i.imgur.com/pTnQNFB.jpg" class="col-md-8" alt="Shift Management Helper">
+                    </div>
+
+
+
+
+
+                </div>
+
+
+                <a class="carousel-control-prev" href="#projects" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#projects" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <p id="creationinfo">&copy; 2021 - Created by Peter Astle</p>
+
+    </footer>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
